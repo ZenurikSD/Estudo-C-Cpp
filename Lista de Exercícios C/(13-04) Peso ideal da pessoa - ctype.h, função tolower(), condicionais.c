@@ -1,6 +1,6 @@
-#include <stdio.h> //Biblioteca para utilizar comandos de entrada e saída
+#include <stdio.h>  //Biblioteca para utilizar comandos de entrada e saída
 #include <locale.h> //Utilizar caracteres de outras línguas
-#include <ctype.h> //"Character TYPE" - Biblioteca para manipulação de caracteres
+#include <ctype.h>  //"Character TYPE" - Biblioteca para manipulação de caracteres
 
 //Variáveis
 float altura, peso;
@@ -28,5 +28,5 @@ int main(){
 	};
 	
 	//Saída
-	printf("O seu peso ideal é %.2f kg", peso);
+	printf("O seu peso ideal é %.2f kg \n", peso);
 }
